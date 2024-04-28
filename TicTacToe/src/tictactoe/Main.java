@@ -12,6 +12,7 @@ public class Main {
 	    boolean gameOver = false;
 	    Scanner scanner = new Scanner(System.in);
 
+		  
 	    while (!gameOver) {
 	      printBoard(board);
 	      System.out.print("Player " + player + " enter: ");
