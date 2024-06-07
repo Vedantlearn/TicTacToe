@@ -13,7 +13,7 @@ public class Main {
 	    Scanner scanner = new Scanner(System.in);
 		  
 	    while (!gameOver) {
-	      printBoard(board);
+	      printBoard(board);   
 	      System.out.print("Player " + player + " enter: ");
 	      int row = scanner.nextInt();
 	      int col = scanner.nextInt(); 
