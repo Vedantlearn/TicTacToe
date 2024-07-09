@@ -7,7 +7,7 @@ public class Main {
 	      for (int col = 0; col < board[row].length; col++) {      
 	        board[row][col] = ' ';  
 	      }
-	    }
+	    }    
 	    char player = 'X'; 
 	    boolean gameOver = false;
 	    Scanner scanner = new Scanner(System.in);
