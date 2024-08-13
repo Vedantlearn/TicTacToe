@@ -7,7 +7,7 @@ public class Main {
 	      for (int col = 0; col < board[row].length; col++) {      
 	        board[row][col] = ' ';    
 	      }
-	    }    
+	    }                          
 	    char player = 'X'; 
 	    boolean gameOver = false;  
 	    Scanner scanner = new Scanner(System.in);
@@ -16,7 +16,7 @@ public class Main {
 	      printBoard(board);   
 	      System.out.print("Player " + player + " enter: ");
 	      int row = scanner.nextInt();
-	      int col = scanner.nextInt(); 
+	      int col = scanner.nextInt();     
 	      System.out.println();
 
 	      if (board[row][col] == ' ') {
